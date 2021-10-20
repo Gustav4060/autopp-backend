@@ -15,27 +15,27 @@ import javax.persistence.Id;
 public class Circula {
 	@Id
 	private Integer idCircula;
-	@Column(name = "nombreDia", nullable = false)
+	@Column(name = "nombreDia", nullable = false, length = 20)
 	private String nombreDia;
-	@Column(name = "placa0", nullable = false)
+	@Column(name = "placa0", nullable = false, length = 2)
 	private String placa0;
-	@Column(name = "placa1", nullable = false)
+	@Column(name = "placa1", nullable = false, length = 2)
 	private String placa1;
-	@Column(name = "placa2", nullable = false)
+	@Column(name = "placa2", nullable = false, length = 2)
 	private String placa2;
-	@Column(name = "placa3", nullable = false)
+	@Column(name = "placa3", nullable = false, length = 2)
 	private String placa3;
-	@Column(name = "placa4", nullable = false)
+	@Column(name = "placa4", nullable = false, length = 2)
 	private String placa4;
-	@Column(name = "placa5", nullable = false)
+	@Column(name = "placa5", nullable = false, length = 2)
 	private String placa5;
-	@Column(name = "placa6", nullable = false)
+	@Column(name = "placa6", nullable = false, length = 2)
 	private String placa6;
-	@Column(name = "placa7", nullable = false)
+	@Column(name = "placa7", nullable = false, length = 2)
 	private String placa7;
-	@Column(name = "placa8", nullable = false)
+	@Column(name = "placa8", nullable = false, length = 2)
 	private String placa8;
-	@Column(name = "placa9", nullable = false)
+	@Column(name = "placa9", nullable = false, length = 2)
 	private String placa9;
 	
 	
